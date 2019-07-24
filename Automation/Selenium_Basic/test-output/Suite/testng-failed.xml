@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.atmecs.automation.DriverGTest">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- com.atmecs.automation.DriverGTest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test thread-count="5" name="Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.atmecs.automation.DriverGTest">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- com.atmecs.automation.DriverGTest -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+  <test thread-count="5" name="IE(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.atmecs.automation.DriverGTest">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- com.atmecs.automation.DriverGTest -->
+    </classes>
+  </test> <!-- IE(failed) -->
+</suite> <!-- Failed suite [Suite] -->
